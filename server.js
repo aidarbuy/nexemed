@@ -7,4 +7,4 @@ eapp.use(express.static(__dirname + '/public'))
 		res.sendFile(__dirname + '/index.html');
 	});
 
-eapp.listen(19000);
+eapp.listen(process.env.PORT || 19000);
