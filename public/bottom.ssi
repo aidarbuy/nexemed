@@ -1,0 +1,153 @@
+		<div id="cmsms_latest_bottom_tweets">
+			<div class="cmsms_latest_bottom_tweets_inner">
+				<span class="tweets_icon"></span>
+				<ul class="jta-tweet-list responsiveContentSlider">
+					<li class="jta-tweet-list-item">We celebrating our re-branding and it is only a start!! See why so many people liked us - <a href="http://t.co/Xzsvpy8rPq" target="_blank" rel="nofollow">http://t.co/Xzsvpy8rPq</a></li>
+					<li class="jta-tweet-list-item">#UrgentCare We LOVE making you HEALTHIER... #Medical #Health #Medicine <a href="http://t.co/PmSDQs9lnN" target="_blank" rel="nofollow">http://t.co/PmSDQs9lnN</a></li>
+					<li class="jta-tweet-list-item">Check out our new company page in social networks #besturgentcare #medical <a href="http://t.co/9d1vGenoNQ" target="_blank" rel="nofollow">http://t.co/9d1vGenoNQ</a> via @nexemed</li>
+				</ul>
+			</div>
+		</div>
+		<script type="text/javascript">
+			jQuery(document).ready(function () { 
+				jQuery('#cmsms_latest_bottom_tweets .jta-tweet-list').cmsmsResponsiveContentSlider( {
+					sliderWidth : '100%',
+					sliderHeight : 'auto',
+					animationSpeed : 500,
+					animationEffect : 'fade',
+					animationEasing : 'linear',
+					pauseTime : 7000,
+					activeSlide : 1, 
+					touchControls : true,
+					pauseOnHover : false, 
+					arrowNavigation : true, 
+					slidesNavigation : false
+				} );
+			} );
+		</script>
+		<!-- _________________________ Start Bottom _________________________ -->
+		<section id="bottom">
+			<div class="bottom_inner">
+				<div class="one_fourth">
+					<aside id="text-3" class="widget widget_text">
+						<h3 class="widgettitle">Nexemed Information</h3>
+						<div class="textwidget">
+							<p id="pb_35"><strong style="color:#fff">Cash and major credit cards are accepted.</strong>Please check with your insurance provider to determine coverage for Winding Cross Urgent Care services.</p>
+							<aside class="widget widget_custom_contact_info_entries" id="custom-contact-info-2">
+								<div class="contact_widget_info">
+									<span class="contact_widget_name">Nexemed Ltd.</span>
+									<span class="contact_widget_address">952, Edwards Ferry Road NE</span>
+									<span class="contact_widget_city">Leesburg</span>
+									<span class="contact_widget_state">VA</span>
+								</div>
+								<span class="contact_widget_phone">(703) 687 41 58</span>
+								<span class="contact_widget_email">
+									<a href="mailto:copyright.cmsmasters@gmail.com">info@nexemed.com</a>
+								</span>
+							</aside>
+						</div>
+					</aside>
+				</div>
+				<div class="one_fourth">
+					<aside id="nav_menu-2" class="widget widget_nav_menu">
+						<h3 class="widgettitle">Doctors</h3>
+						<div class="menu-doctors-container">
+							<ul id="menu-doctors" class="menu">
+								<li class="menu-item"><a href="#">Dr. Karen Dawson</a></li>
+								<li class="menu-item"><a href="#">Dr. Jack Simmons</a></li>
+								<li class="menu-item"><a href="#">Dr. Jack Zerriper</a></li>
+								<li class="menu-item"><a href="#">Dr. Michael Linden</a></li>
+								<li class="menu-item"><a href="#">Dr. Simon Green</a></li>
+								<li class="menu-item"><a href="#">Dr. Natalie Channing</a></li>
+								<li class="menu-item"><a href="#">Dr. Caroline Gerwig</a></li>
+							</ul>
+						</div>
+					</aside>
+				</div>
+				<div class="cl_resp"></div>
+				<div class="one_fourth">
+					<aside id="nav_menu-4" class="widget widget_nav_menu">
+						<h3 class="widgettitle">Services</h3>
+						<div class="menu-services-container">
+							<ul id="menu-services" class="menu">
+								<li class="menu-item"><a href="#">Pediatric Clinic</a></li>
+								<li class="menu-item"><a href="#">Diagnosis Clinic</a></li>
+								<li class="menu-item"><a href="#">Cardiac Clinic</a></li>
+								<li class="menu-item"><a href="#">Laboratory Analysis</a></li>
+								<li class="menu-item"><a href="#">Dental Clinic</a></li>
+								<li class="menu-item"><a href="#">Gynecological Clinic</a></li>
+								<li class="menu-item"><a href="#">Psychological Counseling</a></li>
+							</ul>
+						</div>
+					</aside>
+				</div>
+				<div class="one_fourth">
+					<aside class="widget widget_custom_contact_form_entries">
+						<h3 class="widgettitle">Quick Contacts</h3>
+						<div class="cmsms-form-builder">
+							<div class="box success_box widgetinfo"><table><tr><td>&nbsp;</td><td>Thank You!<br>Your message has been sent successfully.</td></tr></table></div>
+							<script type="text/javascript">
+								jQuery(document).ready(function () { 
+									jQuery('#form_contact_form_widget_001').validationEngine('init');
+									
+									jQuery('#form_contact_form_widget_001 a#contact_form_widget_001_wformsend').click(function () { 
+										var form_builder_url = jQuery('#contact_form_widget_001_wurl').val();
+										
+										jQuery('#form_contact_form_widget_001 .loading').animate( {
+											opacity : 1
+										} , 250);
+										
+										if (jQuery('#form_contact_form_widget_001').validationEngine('validate')) { 
+											jQuery.post(form_builder_url, { 
+												field_003 : jQuery('#field_003').val(), 
+												field_004 : jQuery('#field_004').val(), 
+												formname : 'contact_form_widget_001', 
+												formtype : 'widget' 
+											}, function () { 
+												jQuery('#form_contact_form_widget_001 .loading').animate( { opacity : 0 }, 250);
+												document.getElementById('form_contact_form_widget_001').reset();
+												jQuery('#form_contact_form_widget_001').parent().find('.widgetinfo').hide();
+												jQuery('#form_contact_form_widget_001').parent().find('.widgetinfo').fadeIn('fast');
+												jQuery('html, body').animate( { scrollTop : (jQuery('#form_contact_form_widget_001').offset().top - 100) }, 'slow');
+												jQuery('#form_contact_form_widget_001').parent().find('.widgetinfo').delay(5000).fadeOut(1000);
+											} );
+											
+											return false;
+										} else { 
+											jQuery('#form_contact_form_widget_001 .loading').animate( { opacity : 0 }, 250);
+											
+											return false;
+										}
+									} );
+								} );
+							</script>
+							<form action="#" method="post" id="form_contact_form_widget_001">
+								<div class="form_info cmsms_input"><label for="field_003">Your Email<span class="color_3"> *</span></label><input type="text" name="wemail" id="field_003" size="22" tabindex="12" class="validate[required,custom[email]]" /></div>
+								<div class="form_info cmsms_textarea"><label for="field_004">Your message<span class="color_3"> *</span></label><textarea name="wmessage" id="field_004" cols="28" rows="6" tabindex="13" class="validate[required,minSize[3]]"></textarea></div>
+								<div class="loading"></div><div><input type="hidden" name="contact_form_widget_001_wurl" id="contact_form_widget_001_wurl" value="http://your_site.net/php/sendmail.php" /></div><!-- Here you need to set the path to the sendmail file -->
+								<div><a href="#" id="contact_form_widget_001_wformsend" class="button_small" tabindex="14"><span>Submit</span></a></div>
+							</form>
+						</div>
+					</aside>
+				</div>
+			</div>
+		</section>
+		<!-- _________________________ Finish Bottom _________________________ -->
+
+		<a href="javascript:void(0);" id="slide_top"></a>
+	</div>
+	<!-- _________________________ Finish Container _________________________ -->
+
+	<!-- _________________________ Start Footer _________________________ -->
+
+	<footer id="footer" role="contentinfo">
+		<span class="copyright">Nexemed © 2015 | All Rights Reserved</span>
+		<ul id="footer_nav" class="footer_nav">
+			<li class="menu-item"><a href="index.html">Home</a></li>
+			<li class="menu-item"><a href="about.html">About Us</a></li>
+			<li class="menu-item"><a href="doctors.html">Doctors</a></li>
+			<li class="menu-item"><a href="blog.html">Blog</a></li>
+			<li class="menu-item"><a href="contacts.html">Contacts</a></li>
+		</ul>
+	</footer>
+	<!-- _________________________ Finish Footer _________________________ -->
